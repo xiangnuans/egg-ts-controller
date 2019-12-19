@@ -1,6 +1,6 @@
 {
   "name": "egg-ts-controller",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "控制器",
   "main": "index.js",
   "types": "index.d.ts",
@@ -41,22 +41,20 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
-    "config",
-    "app"
+    "index.js",
+    "index.d.ts"
   ],
   "ci": {
     "version": "8, 10"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-ts-controller.git"
+    "url": "git+https://github.com/CoCoyh/egg-ts-controller.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/CoCoyh/egg-ts-controller/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-ts-controller#readme",
+  "homepage": "https://github.com/CoCoyh/egg-ts-controller#readme",
   "author": "coco",
   "license": "MIT"
 }
