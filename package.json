@@ -2,6 +2,8 @@
   "name": "egg-ts-controller",
   "version": "1.0.0",
   "description": "控制器",
+  "main": "index.js",
+  "types": "index.d.ts",
   "eggPlugin": {
     "name": "tsController"
   },
@@ -13,7 +15,6 @@
   "dependencies": {
     "egg": "^2.26.0",
     "egg-ts-router": "^1.0.0",
-    "tern": "^0.24.2",
     "typeorm": "^0.2.21"
   },
   "devDependencies": {
@@ -24,7 +25,8 @@
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
+    "eslint-config-egg": "^7.1.0",
+    "tern": "^0.24.2"
   },
   "engines": {
     "node": ">=8.0.0"
